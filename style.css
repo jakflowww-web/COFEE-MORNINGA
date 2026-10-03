@@ -1,0 +1,114 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif
+}
+
+body{
+    background-color: rgb(225, 212, 195);
+    margin: 30px;
+}
+header{
+    background-color: antiquewhite;
+    height: 100px;
+}
+header img{
+    float: left;
+    width: 130px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+nav{
+    padding-top: 25px;
+    padding-left: 810px;
+}
+nav a{
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.hero{
+    background-color: rgb(171, 109, 65);
+    border-radius: 15px;
+    margin: 50px;
+    height: 400px;
+    padding: 20px;
+    padding-top: 50px;
+}
+.hero-img img{
+    float: right;
+    height: 350px;
+    border-radius: 20px;
+}
+.hero-text{
+    float: left;
+    width: 700px;
+    margin-top:50px;
+    padding: 10px;
+}
+.hero-text p{
+    margin: 20px 0;
+}
+.hero-text a{
+    border-radius: 20px;
+    background-color:antiquewhite;
+    color:chocolate;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight:bold;
+    padding-top: 10px;
+
+}
+.plus{
+    padding: 30px;
+   
+}
+.plus-gird{
+     display: flex;
+    justify-content:space-around;
+}
+.plus-inf{
+    background-color: antiquewhite;
+    margin: 15px;
+    width: 400px;
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+.products{
+
+background-color: antiquewhite;
+margin: 15px;
+border-radius: 15px;
+padding: 20px 30px;
+}
+.p-gird{
+    display: flex;
+justify-content:space-around;
+}
+.product{
+   border-radius: 20px;
+  padding: 10px 30px;
+  text-align: center; 
+  margin: 20px;
+  border: 1px solid brown;
+  width: 400px;
+
+}
+.product img{
+    width: 200px;
+}
+.btn{
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 40px;
+    background-color: chocolate;
+    color:antiquewhite;
+}
+.product p {
+    margin: 10px;
+}
